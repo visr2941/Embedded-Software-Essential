@@ -91,6 +91,7 @@ int32_t my_atoi(int8_t * str)
 }
 
 
+
 int8_t big_to_little32(uint32_t * data, uint32_t length)
 {
 	uint32_t j=0, temp;
@@ -99,14 +100,29 @@ int8_t big_to_little32(uint32_t * data, uint32_t length)
 		temp = *(data+j);
 		*(data+j) = *(data+length-1-j);
 		*(data+length-1-j) = temp;
-		j++
+		j++;
 	}
+	return 0;
 }
 
-void main()
+int8_t little_to_big32(uint32_t * data, uint32_t length)
 {
-	int32_t x = -0x456fcd4; 
-	int8_t test[10];
-	my_itoa(test, x, 16);
-	printf("%s\n", test);
+        uint32_t j=0, temp;
+        while(j!=(length/2))
+        {
+                temp = *(data+j);
+                *(data+j) = *(data+length-1-j);
+                *(data+length-1-j) = temp;
+                j++;
+        }
+        return 0;
+}
+
+void print_memory(uint8_t * start, uint32_t length)
+{
+	while(length--)
+	{
+		printf("%p	0x%x\n", start, *start++);
+	}
+	return;
 }

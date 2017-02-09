@@ -48,5 +48,5 @@ int8_t my_memset(uint8_t * src, uint32_t length, uint8_t value);
 int8_t my_memzero(uint8_t * src, uint32_t length);
 int8_t my_reverse(uint8_t * src, uint32_t length);
 
-#endif  // end of __memory_h 
+#endif  // end of __MEMORY_H
 
