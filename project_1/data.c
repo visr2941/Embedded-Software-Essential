@@ -6,7 +6,6 @@
 int8_t * my_itoa(int8_t * str, int32_t data, int32_t base)
 {
 	int8_t sign=1, val, count=0, i=0, temp;	// defining local variables
-	int8_t * str_ret = str; 		// defining a pointer 
 	if(base==10|| base == 16)	// checking for base: it can't be other than 10 or 16
 		;
 	else
@@ -56,23 +55,57 @@ int8_t * my_itoa(int8_t * str, int32_t data, int32_t base)
 	}	
 	*str = '\0';		// end the string with '\0'
 	
-
 	// reversing the string
+	i = count;
 	count = count/2;	// make count equal to it's half to reverse the string
-	while(count--)		// based on counting, reverse the string
+	while(count)		// based on counting, reverse the string
 	{
 		temp = *(--str);
-		*str = *(str_ret+i);
-		*(str_ret+i) = temp;
-		i++;
+		*str = *(str-i+1);
+		*(str-i+1) = temp;
+		count--;
+		i=i-2;
 	} // end of string reversal
 	
-	return str_ret;	// return the pointer to the string
+	return str;	// return the pointer to the string
+} // end of the my_itoa() function
+
+
+int32_t my_atoi(int8_t * str)
+{
+	int32_t val=0;  	// integer value to be returned
+	int8_t sign=1;		// determining the sign
+	if(*str=='-')		// if first character of string is "-"
+	{	
+		sign = -1;	// change sign to -1
+		str++;
+	}
+	
+	while(*str!='\0')	// loop till the end of string
+	{
+		if(*str <= '0' || *str >= '9')	// if character is not digit kind
+			return(val*sign);	// return the val before that non-digit char
+		val = 10*val + *str++-'0';	// calculate the integer value of string
+	}
+	return (val*sign);	// return the intger value
+}
+
+
+int8_t big_to_little32(uint32_t * data, uint32_t length)
+{
+	uint32_t j=0, temp;
+	while(j!=(length/2))
+	{
+		temp = *(data+j);
+		*(data+j) = *(data+length-1-j);
+		*(data+length-1-j) = temp;
+		j++
+	}
 }
 
 void main()
 {
-	int32_t x = 00; 
+	int32_t x = -0x456fcd4; 
 	int8_t test[10];
 	my_itoa(test, x, 16);
 	printf("%s\n", test);
