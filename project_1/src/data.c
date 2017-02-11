@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include <string.h>
 
 int8_t * my_itoa(int8_t * str, int32_t data, int32_t base)
 {
@@ -68,7 +67,7 @@ int8_t * my_itoa(int8_t * str, int32_t data, int32_t base)
 	} // end of string reversal
 	
 	return str;	// return the pointer to the string
-} // end of the my_itoa() function
+} // end of the my_itoa function
 
 
 int32_t my_atoi(int8_t * str)
@@ -88,41 +87,58 @@ int32_t my_atoi(int8_t * str)
 		val = 10*val + *str++-'0';	// calculate the integer value of string
 	}
 	return (val*sign);	// return the intger value
-}
+} // end of my_atoi function
 
 
 
 int8_t big_to_little32(uint32_t * data, uint32_t length)
 {
-	uint32_t j=0, temp;
-	while(j!=(length/2))
-	{
-		temp = *(data+j);
-		*(data+j) = *(data+length-1-j);
-		*(data+length-1-j) = temp;
-		j++;
-	}
-	return 0;
-}
-
-int8_t little_to_big32(uint32_t * data, uint32_t length)
-{
-        uint32_t j=0, temp;
-        while(j!=(length/2))
+	uint32_t temp=0;	// temporary variable
+        uint8_t i;		// loop variable
+        while(length--)		// loop to change endian-ness of all the elements
         {
-                temp = *(data+j);
-                *(data+j) = *(data+length-1-j);
-                *(data+length-1-j) = temp;
-                j++;
+                i = 7;		// lopp variable value to 7 to change nibble
+                while(i--)
+                {
+                        temp |= (*data & 0xF);		// taking out last nibble of the data
+                        *data = *data >>4;		// left shift data by 4 to take out the next nibble
+                        temp = i ? temp<<4: (temp<<4 | *data);	// in the last loop, temp is shifted and ORed with *data
+                }
+                *data++ = temp;		// transferring the temp value to data (swapping)
+                temp = 0;		// initilaizing temp again to zero
         }
         return 0;
-}
+} // end of big_to_little32 function 
+
+
+
+// the below function little_to_big32 is same as big_to_little32 as defined above
+int8_t little_to_big32(uint32_t * data, uint32_t length)
+{	
+	uint32_t temp=0;
+	uint8_t i;
+	while(length--)
+	{
+		i = 7;
+		while(i--)	
+		{
+			temp |= (*data & 0xF);
+			*data = *data >>4;
+			temp = i ? temp<<4: (temp<<4 | *data);
+		}
+		*data++ = temp;
+		temp = 0;
+	}
+	return 0;
+} // end of the little_to_big32 
+
 
 void print_memory(uint8_t * start, uint32_t length)
 {
-	while(length--)
+	while(length--)		// looping for the length of data
 	{
-		printf("%p	0x%x\n", start, *start++);
+		printf("%p	0x%x\n", start, *start++); 	// printing the memory content
 	}
 	return;
-}
+} // end of printf_memory function
+
