@@ -97,6 +97,7 @@ int8_t big_to_little32(uint32_t * data, uint32_t length)
         uint8_t i;		// loop variable
         while(length--)		// loop to change endian-ness of all the elements
         {
+
                 i = 7;		// lopp variable value to 7 to change nibble
                 while(i--)
                 {
@@ -137,8 +138,21 @@ void print_memory(uint8_t * start, uint32_t length)
 {
 	while(length--)		// looping for the length of data
 	{
-		printf("%p	0x%x\n", start, *start++); 	// printing the memory content
+		printf("0x%X\n", *start++); 	// printing the memory content
 	}
 	return;
 } // end of printf_memory function
 
+/*
+main()
+{
+	uint8_t arr[2]= {0x00, 0x48};
+	big_to_little32(arr, 2);
+	printf("%x\n", arr[0]); 
+	printf("%x\n", arr[1]);
+	little_to_big32(arr, 2);
+        printf("%x\n", arr[0]);
+        printf("%x\n", arr[1]);
+
+}
+*/
