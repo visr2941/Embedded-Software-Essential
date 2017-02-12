@@ -17,15 +17,27 @@ else
 CC = arm-none-eabi-gcc
 endif 
 
-libraries:
-	mkdir libraries/
+compile_all: $(SOURCE)
+	if [ ! -e ./libraries/ ]; then mkdir libraries; fi
 	$(CC) -c $(SOURCE) -I$(INCLUDE)
 	mv *.o libraries/
 
-$(EXE): libraries
-	$(CC) src/project_1.c -I$(INCLUDE) $(OBJECT) -o $(EXE) $(CFLAGS) $(LDFLAGS)
+%.i: src/%.c
+	$(CC) -E $< $(INCLUDE) -o $@
+
+%.asm: src/%.c
+	$(CC) -S $< $(INCLUDE) -o $@
+
+%.s: src/%.c
+	$(CC) -S $< $(INCLUDE) -o $@
+	 
+%.o: src/%.c
+	$(CC) -c $< $(INCLUDE) -o $@
+
+build: compile_all
+	$(CC) $(INCLUDE) $(OBJECT) -o $(EXE).out $(CFLAGS) $(LDFLAGS)
 
 .PHONY: clean
 
 clean:
-	rm -rf *.map *.out *.o *~ libraries
+	rm -rf *.map *.out *.o *~ libraries *.i *.asm *.s
