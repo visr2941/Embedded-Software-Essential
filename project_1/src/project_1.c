@@ -7,7 +7,6 @@
 
 void test_data1(uint8_t * arr, uint32_t length)
 {
-	uint32_t x, i;
 	uint32_t * str = (uint32_t *)arr;
 	printf("\nBelow is test_report_1: \n");
         print_memory(arr, length);
@@ -38,7 +37,7 @@ void test_data3(uint8_t * arr, uint8_t length)
 	printf("\nBelow is test_report_3: \n");	
 	for(i=0; i< length; i++)
 	{
-		my_atoi(arr+i);
+		my_atoi((int8_t *)arr+i);
 		print_memory(arr+i, 1);
 	}	
 }
@@ -67,8 +66,8 @@ void test_memory(uint8_t * arr, uint8_t length)
 void project_1_report(void)
 {
 	uint8_t i = 0, j = 0;
-	uint8_t arr1[32], arr2[32], arr3[32];
-	for (i; i<32; i++)
+	uint8_t arr1[32], arr2[32];
+	for (i=0; i<32; i++)
 	{
 		if(i>15)
 			arr1[i] = j++;
@@ -89,7 +88,9 @@ void project_1_report(void)
 }
 
 
-main()
+int main()
 {
 	project_1_report();
+	return 0;
 }
+
