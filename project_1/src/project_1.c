@@ -8,7 +8,7 @@
 void test_data1(uint8_t * arr, uint32_t length)
 {
 	uint32_t x, i;
-	uint32_t * str = arr;
+	uint32_t * str = (uint32_t *)arr;
 	printf("\nBelow is test_report_1: \n");
         print_memory(arr, length);
         big_to_little32(str, length);
@@ -16,7 +16,7 @@ void test_data1(uint8_t * arr, uint32_t length)
         print_memory(arr, length);
         little_to_big32(str, length);
 	printf("\nBelow is little_to_big conversion of arr1 data:\n");
-        print_memory(str, length);
+        print_memory((uint8_t *)str, length);
 }
 
 
@@ -27,7 +27,7 @@ void test_data2(uint8_t * arr, uint8_t length)
 	printf("\nBelow is test_report_2: \n");	
 	for(i=0; i< length; i++)
 	{
-		my_itoa(str, *(arr+i), 10);
+		my_itoa((int8_t *)str, *(arr+i), 10);
 		print_memory(str, 2);
 	}	
 }
@@ -82,9 +82,9 @@ void project_1_report(void)
         }
 
 
-	//test_data1(arr1, 32);
-	//test_data2(arr2, 32);
-	//test_data3(arr2, 32);
+	test_data1(arr1, 32);
+	test_data2(arr2, 32);
+	test_data3(arr2, 32);
 	test_memory(arr2, 32);
 }
 

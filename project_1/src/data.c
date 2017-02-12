@@ -5,10 +5,13 @@
 int8_t * my_itoa(int8_t * str, int32_t data, int32_t base)
 {
 	int8_t sign=1, val, count=0, i=0, temp, j = 0;	// defining local variables
-	if(base<2 || base>16)	// checking for base: it can't be other than 10 or 16
+	
+
+	if(base>2 || base<=16)	// checking for base: it can't be other than 10 or 16
 		;
 	else
 	{
+		printf("hello\n");
 		return(NULL);		// return null if base is invalid
 	}
 
@@ -21,7 +24,7 @@ int8_t * my_itoa(int8_t * str, int32_t data, int32_t base)
 
 	// based on the base value, relevant logic to convert 
 	// into string is below
-	if(2<=base<=10)			// for base == 10
+	if(base==10)			// for base == 10
 	{	
 		do	// run atleast once (corner case when data = 0)
 		{
@@ -31,7 +34,7 @@ int8_t * my_itoa(int8_t * str, int32_t data, int32_t base)
 			count++;		// increase the counter
 		} while(data !=0);
 	}
-	else if (11<=base<=16)	// if base==16
+	else if (base==16)	// if base==16
 	{
 		do	// run atleast once (corner case when data = 0)
 		{
