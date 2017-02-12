@@ -39,12 +39,14 @@ int8_t my_memzero(uint8_t * src, uint32_t length)
 
 int8_t my_reverse(uint8_t * src, uint32_t length)
 {
-	uint8_t i = 0, temp=0;
+	uint8_t i = 0; 
+	uint32_t temp=0;
 	for(i=0; i< length/2; i++)		// looping on half of the length
 	{					// and swapping the start and last using a temp variable
-		temp=*(src+i)
+		temp=*(src+i);
 		*(src+i) = *(src+length-i-1);
 		*(src+length-i-1) = temp;	
 	}
 	return 0;			// return zero if successful
 }
+

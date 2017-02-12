@@ -4,8 +4,8 @@
 
 int8_t * my_itoa(int8_t * str, int32_t data, int32_t base)
 {
-	int8_t sign=1, val, count=0, i=0, temp;	// defining local variables
-	if(base==10|| base == 16)	// checking for base: it can't be other than 10 or 16
+	int8_t sign=1, val, count=0, i=0, temp, j = 0;	// defining local variables
+	if(base<2 || base>16)	// checking for base: it can't be other than 10 or 16
 		;
 	else
 	{
@@ -21,53 +21,54 @@ int8_t * my_itoa(int8_t * str, int32_t data, int32_t base)
 
 	// based on the base value, relevant logic to convert 
 	// into string is below
-	if(base==10)			// for base == 10
+	if(2<=base<=10)			// for base == 10
 	{	
 		do	// run atleast once (corner case when data = 0)
 		{
 			val = data % 10;	// getting the least place digit
 			data = data/10;		// removing the last place digit
-			*str++ = val + '0';	// storing the charcater value of that digit
+			*(str+i++) = val + '0';	// storing the charcater value of that digit
 			count++;		// increase the counter
 		} while(data !=0);
 	}
-	else if (base==16)	// if base==16
+	else if (11<=base<=16)	// if base==16
 	{
 		do	// run atleast once (corner case when data = 0)
 		{
-			val = data % 16;	// getting the least place digit (base 16)
-			data = data /16;	// removing the last place digit
+			val = data % base;	// getting the least place digit (base 16)
+			data = data / base;	// removing the last place digit
 			if(val>=0 && val <= 9) 	// if the digit is numeric, add the '0'
-				*str++ = val + '0';
+				*(str+i++) = val + '0';
 			else if(val >=10 && val <= 15) // if digit is alphabet, add the offset to get the character value
-				*str++ = val + 'A' - 10;
+				*(str+i++) = val + 'A' - 10;
 			count++;
 		} while(data!=0);
 	}
 	// end of converting int/hex to string
-	
 
 	if(sign < 0)		// if sign is less than zero, add a '-' at the end of string
 	{
-		*str++ = '-';
+		*(str+i++) = '-';
 		count++;
 	}	
-	*str = '\0';		// end the string with '\0'
-	
+	*(str+i) = '\0';		// end the string with '\0'
+
+
 	// reversing the string
-	i = count;
-	count = count/2;	// make count equal to it's half to reverse the string
-	while(count)		// based on counting, reverse the string
+	i = count/2;	// make count equal to it's half to reverse the string
+	while(i)		// based on counting, reverse the string
 	{
-		temp = *(--str);
-		*str = *(str-i+1);
-		*(str-i+1) = temp;
-		count--;
-		i=i-2;
+		temp = *(str+count-j-1);
+		*(str+count-1-j)=*(str+j);
+		*(str+j) = temp;
+		i--;
+		j++;
 	} // end of string reversal
+
 	
 	return str;	// return the pointer to the string
 } // end of the my_itoa function
+
 
 
 int32_t my_atoi(int8_t * str)
@@ -138,21 +139,8 @@ void print_memory(uint8_t * start, uint32_t length)
 {
 	while(length--)		// looping for the length of data
 	{
-		printf("0x%X\n", *start++); 	// printing the memory content
+		printf("0x%X ", *start++); 	// printing the memory
 	}
+	printf("\n");
 	return;
 } // end of printf_memory function
-
-/*
-main()
-{
-	uint8_t arr[2]= {0x00, 0x48};
-	big_to_little32(arr, 2);
-	printf("%x\n", arr[0]); 
-	printf("%x\n", arr[1]);
-	little_to_big32(arr, 2);
-        printf("%x\n", arr[0]);
-        printf("%x\n", arr[1]);
-
-}
-*/
