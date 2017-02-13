@@ -45,6 +45,7 @@ void test_data3(uint8_t * arr, uint8_t length)
 
 void test_memory(uint8_t * arr, uint8_t length)
 {
+	printf("Below is the output for the test_memory()\n");
 	print_memory(arr,32);
 	my_reverse(arr,12);
 	printf("\nafter reversing the starting 12 bytes\n");

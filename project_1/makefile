@@ -1,10 +1,11 @@
 include sources.mk
 
-CFLAGS = -std=c99 -Wall -O0
+CFLAGS = -std=c99 -Wall -g -O0 -Werror $(PLATFORM_FLAG)=$(ARCH)
 LDFLAGS = -Xlinker -Map=$(EXE).map
+PLATFORM_FLAG = -march
 
 PLATFORM = host
-ARCH := $(shell arch)
+ARCH = native
 OS := $(shell uname -s)
 
 ifeq ($(OS), Linux)
@@ -19,8 +20,18 @@ endif
 
 compile_all: $(SOURCE)
 	if [ ! -e ./libraries/ ]; then mkdir libraries; fi
-	$(CC) -c $(SOURCE) -I$(INCLUDE)
+	$(CC) -c $(SOURCE) $(INCLUDE)
 	mv *.o libraries/
+
+build: compile_all $(EXE).dep
+	$(CC) $(INCLUDE) $(OBJECT) -o $(EXE).out $(CFLAGS) $(LDFLAGS)
+
+build_lib: compile_all
+	if [ ! -e ./libraries/archive ]; then mkdir libraries/archive; fi
+	ar cr ./libraries/archive/libproject1.a libraries/data.o libraries/memory.o
+
+$(EXE).dep: $(SOURCE)
+	$(CC) $^ $(INCLUDE) $(CFLAGS) -M -o $@
 
 %.i: src/%.c
 	$(CC) -E $< $(INCLUDE) -o $@
@@ -34,10 +45,7 @@ compile_all: $(SOURCE)
 %.o: src/%.c
 	$(CC) -c $< $(INCLUDE) -o $@
 
-build: compile_all
-	$(CC) $(INCLUDE) $(OBJECT) -o $(EXE).out $(CFLAGS) $(LDFLAGS)
-
 .PHONY: clean
 
 clean:
-	rm -rf *.map *.out *.o *~ libraries *.i *.asm *.s
+	rm -rf *.map *.out *.o *~ libraries *.i *.asm *.s *.dep
