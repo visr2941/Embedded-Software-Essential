@@ -91,7 +91,9 @@ void project_1_report(void)
 
 int main()
 {
-	project_1_report();
+	#ifndef project_1_off
+		project_1_report();
+	#endif
 	return 0;
 }
 

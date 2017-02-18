@@ -7,6 +7,7 @@ PLATFORM_FLAG = -march
 PLATFORM = host
 ARCH = native
 OS := $(shell uname -s)
+MACRO = abc 
 
 ifeq ($(OS), Linux)
 ifeq ($(PLATFORM), host)
@@ -20,11 +21,11 @@ endif
 
 compile_all: $(SOURCE)
 	if [ ! -e ./libraries/ ]; then mkdir libraries; fi
-	$(CC) -c $(SOURCE) $(INCLUDE)
+	$(CC) -D$(MACRO) -c $(SOURCE) $(INCLUDE)
 	mv *.o libraries/
 
 build: compile_all $(EXE).dep
-	$(CC) $(INCLUDE) $(OBJECT) -o $(EXE).out $(CFLAGS) $(LDFLAGS)
+	$(CC) -D$(MACRO) $(INCLUDE) $(OBJECT) -o $(EXE).out $(CFLAGS) $(LDFLAGS)
 
 build_lib: compile_all
 	if [ ! -e ./libraries/archive ]; then mkdir libraries/archive; fi
@@ -45,7 +46,7 @@ $(EXE).dep: $(SOURCE)
 %.o: src/%.c
 	$(CC) -c $< $(INCLUDE) -o $@
 
-.PHONY: clean
+.PHONY: clean build_lib compile_all
 
 clean:
 	rm -rf *.map *.out *.o *~ libraries *.i *.asm *.s *.dep
