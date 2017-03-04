@@ -15,8 +15,7 @@
 *       Description: 
 *               remove a data from the circular buffer
 *       Params:
-*               CircBuf * buf: a pointer to circular buffer
-*               int8_t data: the data to be removed to buffer
+*               CircBuf * buf: a pointer to circular buffers
 *       return:
 *               int8: success/failure
 *
@@ -75,7 +74,7 @@ typedef struct CircBuf_t
 enum status = {SUCCESS, FAIL, FULL, EMPTY};
 
 uint8_t buffer_add(CircBuf * buf, int8_t data);
-uint8_t buffer_remove(CircBuf * buf, int8_t data);
+uint8_t buffer_remove(CircBuf * buf);
 uint8_t buffer_full(CircBuf * buf);
 uint8_t buffer_empty(CircBuf * buf);
 uint8_t buffer_peak(CircBuf * buf, uint16_t n);
