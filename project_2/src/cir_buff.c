@@ -3,7 +3,7 @@ nclude <stdio.h>
 #include "cir_buff.h"
 
 
-uint8_t buffer_add(CircBuf * buf, int8_t data);
+status_e buffer_add(CircBuf * buf, int8_t data);
 {
 	if(buffer_full(buf)==FULL)		//if buffer is full
 		return FAIL;			// return FAIL status
@@ -21,7 +21,7 @@ uint8_t buffer_add(CircBuf * buf, int8_t data);
 	return SUCCESS;
 }
 
-uint8_t buffer_remove(CircBuf * buf);
+status_e buffer_remove(CircBuf * buf);
 {
 	if(buffer_empty()==EMPTY)	//if buffer is empty
 		return FAIL;		//return fail
@@ -39,13 +39,13 @@ uint8_t buffer_remove(CircBuf * buf);
 	return SUCCESS;
 }
 
-uint8_t buffer_full(CircBuf * buf);
+status_e buffer_full(CircBuf * buf);
 {
 	if(buf->count==buf->length)	//if buffer count is equal to length
 		return FULL;		//return full
 }
 
-uint8_t buffer_empty(CircBuf * buf);
+status_e buffer_empty(CircBuf * buf);
 {
 	if(buf->count==0)		//if buf-> count equal to zero
 		return EMPTY;		//return empty
@@ -61,7 +61,7 @@ uint8_t buffer_peak(CircBuf * buf, uint16_t n);
 	}
 }
 
-uint8_t buffer_init(CircBuf * buf, uint16_t noBytes);
+status_e buffer_init(CircBuf * buf, uint16_t noBytes);
 {
 	if((buf->buffer = (uint8_t *) malloc(noBytes*sizeof(uint16_t)))==NULL)	//allocate memory of given size
 		return FAIL;	//and if memory is not allocated, return failure
@@ -72,7 +72,7 @@ uint8_t buffer_init(CircBuf * buf, uint16_t noBytes);
 	return SUCCESS;
 }
 
-uint8_t buffer_destroy(CircBuf * buf);
+status_e buffer_destroy(CircBuf * buf);
 {
 	free(buf->buffer);	//free the memory pointed through buf->pointer
 	buf->buffer = NULL;	//setting it to null

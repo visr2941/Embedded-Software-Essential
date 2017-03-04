@@ -71,14 +71,14 @@ typedef struct CircBuf_t
 	uint16_t count, length;		//variable to track count & length
 } CircBuf;
 
-enum status = {SUCCESS, FAIL, FULL, EMPTY};
+enum status_e = {SUCCESS, FAIL, FULL, EMPTY};
 
-uint8_t buffer_add(CircBuf * buf, int8_t data);
-uint8_t buffer_remove(CircBuf * buf);
-uint8_t buffer_full(CircBuf * buf);
-uint8_t buffer_empty(CircBuf * buf);
+status_e buffer_add(CircBuf * buf, int8_t data);
+status_e buffer_remove(CircBuf * buf);
+status_e buffer_full(CircBuf * buf);
+status_e buffer_empty(CircBuf * buf);
 uint8_t buffer_peak(CircBuf * buf, uint16_t n);
-uint8_t buffer_init(CircBuf * buf, uint16_t noBytes);
-uint8_t buffer_destroy(CircBuf * buf);
+status_e buffer_init(CircBuf * buf, uint16_t noBytes);
+status_e buffer_destroy(CircBuf * buf);
 
 #endif
