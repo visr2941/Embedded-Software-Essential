@@ -77,7 +77,7 @@ status_e buffer_add(CircBuf * buf, int8_t data);
 status_e buffer_remove(CircBuf * buf);
 status_e buffer_full(CircBuf * buf);
 status_e buffer_empty(CircBuf * buf);
-uint8_t buffer_peak(CircBuf * buf, uint16_t n);
+int8_t buffer_peak(CircBuf * buf, uint16_t n);
 status_e buffer_init(CircBuf * buf, uint16_t noBytes);
 status_e buffer_destroy(CircBuf * buf);
 

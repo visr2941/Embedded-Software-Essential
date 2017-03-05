@@ -60,13 +60,18 @@ status_e buffer_empty(CircBuf * buf)
 		return NOT_EMPTY;
 }
 
-uint8_t buffer_peak(CircBuf * buf, uint16_t n)
+int8_t buffer_peak(CircBuf * buf, uint16_t n)
 {
-	if(buffer_empty(buf)==EMPTY)		//if bufffer is empty
-		return FAIL;		//return empty flag
+	if(buffer_empty(buf)==EMPTY)	//if bufffer is empty
+		return 0x0;		//return empty flag
 	else
 	{
-		return *((buf->head)+n-1);	//else return the nth element counted from head
+		if(buf->tail+(n-1) <= buf->buffer+buf->length && n<=buf->count)
+			return *(buf->tail+(n-1));	//else return the nth element counted from head
+		else if (n<=buf->count)
+			return *(buf->buffer + ((int16_t) (buf->tail+n-1) % buf->length));
+		else
+			return 0x0;
 	}
 }
 
