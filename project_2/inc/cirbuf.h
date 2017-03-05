@@ -71,7 +71,7 @@ typedef struct CircBuf_t
 	uint16_t count, length;		//variable to track count & length
 } CircBuf;
 
-enum status_e = {SUCCESS, FAIL, FULL, EMPTY};
+typedef enum status {SUCCESS, FAIL, FULL, NOT_FULL, EMPTY, NOT_EMPTY} status_e;
 
 status_e buffer_add(CircBuf * buf, int8_t data);
 status_e buffer_remove(CircBuf * buf);
