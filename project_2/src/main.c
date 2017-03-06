@@ -15,25 +15,23 @@ main()
 	printf("head %p tail %p buffer %p length %d count %d *head %d *tail %d\n", buf->head, buf->tail, buf->buffer, buf->length, buf->count, *(buf->head), *(buf->tail));
 	buffer_add(buf, 57);
 	printf("head %p tail %p buffer %p length %d count %d *head %d *tail %d\n", buf->head, buf->tail, buf->buffer, buf->length, buf->count, *(buf->head), *(buf->tail));
-	
-	printf("2nd element %d\n", buffer_peak(buf,2));
-
-	buffer_remove(buf);
-	printf("head %p tail %p buffer %p length %d count %d *head %d *tail %d\n", buf->head, buf->tail, buf->buffer, buf->length, buf->count, *(buf->head), *(buf->tail));
-
-		printf("2nd element %d\n", buffer_peak(buf,2));
-
 	buffer_add(buf, 62);
 	printf("head %p tail %p buffer %p length %d count %d *head %d *tail %d\n", buf->head, buf->tail, buf->buffer, buf->length, buf->count, *(buf->head), *(buf->tail));
+	
+	//printf("2nd element %d\n", buffer_peak(buf,2));
+
+	//buffer_remove(buf);
+	//printf("head %p tail %p buffer %p length %d count %d *head %d *tail %d\n", buf->head, buf->tail, buf->buffer, buf->length, buf->count, *(buf->head), *(buf->tail));
+
+	//	printf("2nd element %d\n", buffer_peak(buf,2));
+
+	buffer_add(buf, 67);
+	printf("head %p tail %p buffer %p length %d count %d *head %d *tail %d\n", buf->head, buf->tail, buf->buffer, buf->length, buf->count, *(buf->head), *(buf->tail));
 
 	buffer_remove(buf);
 	printf("head %p tail %p buffer %p length %d count %d *head %d *tail %d\n", buf->head, buf->tail, buf->buffer, buf->length, buf->count, *(buf->head), *(buf->tail));
 	buffer_remove(buf);
 	printf("head %p tail %p buffer %p length %d count %d *head %d *tail %d\n", buf->head, buf->tail, buf->buffer, buf->length, buf->count, *(buf->head), *(buf->tail));
-		printf("2nd element %d\n", buffer_peak(buf,2));
-	buffer_remove(buf);
-	printf("head %p tail %p buffer %p length %d count %d *head %d *tail %d\n", buf->head, buf->tail, buf->buffer, buf->length, buf->count, *(buf->head), *(buf->tail));
-	
 
 	buffer_add(buf, 92);
 	printf("head %p tail %p buffer %p length %d count %d *head %d *tail %d\n", buf->head, buf->tail, buf->buffer, buf->length, buf->count, *(buf->head), *(buf->tail));
