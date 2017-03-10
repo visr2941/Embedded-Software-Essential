@@ -1,0 +1,916 @@
+The system is: Linux - 4.4.0-64-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2476787430/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2476787430.dir/build.make CMakeFiles/cmTryCompileExec2476787430.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2476787430.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2476787430.dir/testCCompiler.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2476787430
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2476787430.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2476787430.dir/testCCompiler.c.o  -o cmTryCompileExec2476787430 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec452639703/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec452639703.dir/build.make CMakeFiles/cmTryCompileExec452639703.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec452639703.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec452639703.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec452639703
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec452639703.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec452639703.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec452639703 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec452639703' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec452639703 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec452639703.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec452639703/fast"]
+  ignore line: [make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec452639703.dir/build.make CMakeFiles/cmTryCompileExec452639703.dir/build]
+  ignore line: [make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec452639703.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec452639703.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec452639703]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec452639703.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec452639703.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec452639703 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec452639703' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec452639703 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec452639703.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec452639703] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec452639703.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test WITH_FPIC succeded with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec983425310/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec983425310.dir/build.make CMakeFiles/cmTryCompileExec983425310.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec983425310.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -DWITH_FPIC   -fPIC -o CMakeFiles/cmTryCompileExec983425310.dir/src.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec983425310
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec983425310.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -DWITH_FPIC    CMakeFiles/cmTryCompileExec983425310.dir/src.c.o  -o cmTryCompileExec983425310 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_STACK_PROTECTOR succeded with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3870548814/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3870548814.dir/build.make CMakeFiles/cmTryCompileExec3870548814.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3870548814.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -DWITH_STACK_PROTECTOR   -fstack-protector -o CMakeFiles/cmTryCompileExec3870548814.dir/src.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c
+/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c:1:27: warning: unused parameter ‘argv’ [-Wunused-parameter]
+ int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
+                           ^
+Linking C executable cmTryCompileExec3870548814
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3870548814.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -DWITH_STACK_PROTECTOR    CMakeFiles/cmTryCompileExec3870548814.dir/src.c.o  -o cmTryCompileExec3870548814 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
+Performing C SOURCE FILE Test WITH_VISIBILITY_HIDDEN succeded with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3259034528/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3259034528.dir/build.make CMakeFiles/cmTryCompileExec3259034528.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3259034528.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DWITH_VISIBILITY_HIDDEN   -fvisibility=hidden -o CMakeFiles/cmTryCompileExec3259034528.dir/src.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3259034528
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3259034528.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DWITH_VISIBILITY_HIDDEN    CMakeFiles/cmTryCompileExec3259034528.dir/src.c.o  -o cmTryCompileExec3259034528 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2734633647/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2734633647.dir/build.make CMakeFiles/cmTryCompileExec2734633647.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2734633647.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec2734633647.dir/CheckIncludeFile.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2734633647
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2734633647.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec2734633647.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2734633647 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec352793421/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec352793421.dir/build.make CMakeFiles/cmTryCompileExec352793421.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec352793421.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec352793421.dir/CheckIncludeFile.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec352793421
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec352793421.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec352793421.dir/CheckIncludeFile.c.o  -o cmTryCompileExec352793421 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1959224601/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1959224601.dir/build.make CMakeFiles/cmTryCompileExec1959224601.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1959224601.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec1959224601.dir/CheckIncludeFile.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1959224601
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1959224601.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec1959224601.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1959224601 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1185376732/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1185376732.dir/build.make CMakeFiles/cmTryCompileExec1185376732.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1185376732.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec1185376732.dir/CheckIncludeFile.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1185376732
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1185376732.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec1185376732.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1185376732 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file setjmp.h exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1221084779/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1221084779.dir/build.make CMakeFiles/cmTryCompileExec1221084779.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1221084779.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec1221084779.dir/CheckIncludeFile.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1221084779
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1221084779.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec1221084779.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1221084779 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1075621289/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1075621289.dir/build.make CMakeFiles/cmTryCompileExec1075621289.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1075621289.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec1075621289.dir/CheckIncludeFile.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1075621289
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1075621289.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec1075621289.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1075621289 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1409565445/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1409565445.dir/build.make CMakeFiles/cmTryCompileExec1409565445.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1409565445.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec1409565445.dir/CheckIncludeFile.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1409565445
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1409565445.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec1409565445.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1409565445 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2128020484/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2128020484.dir/build.make CMakeFiles/cmTryCompileExec2128020484.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2128020484.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec2128020484.dir/CheckIncludeFile.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2128020484
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2128020484.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec2128020484.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2128020484 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec144739767/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec144739767.dir/build.make CMakeFiles/cmTryCompileExec144739767.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec144739767.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec144739767.dir/CheckIncludeFile.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec144739767
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec144739767.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec144739767.dir/CheckIncludeFile.c.o  -o cmTryCompileExec144739767 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2772315763/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2772315763.dir/build.make CMakeFiles/cmTryCompileExec2772315763.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2772315763.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec2772315763.dir/CheckIncludeFile.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2772315763
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2772315763.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec2772315763.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2772315763 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1264705462/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1264705462.dir/build.make CMakeFiles/cmTryCompileExec1264705462.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1264705462.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec1264705462.dir/CheckIncludeFile.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1264705462
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1264705462.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec1264705462.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1264705462 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2638571042/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2638571042.dir/build.make CMakeFiles/cmTryCompileExec2638571042.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2638571042.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec2638571042.dir/CheckIncludeFile.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2638571042
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2638571042.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec2638571042.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2638571042 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2591662631/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2591662631.dir/build.make CMakeFiles/cmTryCompileExec2591662631.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2591662631.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec2591662631.dir/CheckIncludeFile.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2591662631
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2591662631.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec2591662631.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2591662631 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1298888321/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1298888321.dir/build.make CMakeFiles/cmTryCompileExec1298888321.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1298888321.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec1298888321.dir/CheckIncludeFile.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1298888321
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1298888321.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec1298888321.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1298888321 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec827377871/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec827377871.dir/build.make CMakeFiles/cmTryCompileExec827377871.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec827377871.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec827377871.dir/CheckIncludeFile.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec827377871
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec827377871.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec827377871.dir/CheckIncludeFile.c.o  -o cmTryCompileExec827377871 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2405600005/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2405600005.dir/build.make CMakeFiles/cmTryCompileExec2405600005.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2405600005.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec2405600005.dir/CheckIncludeFile.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2405600005
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2405600005.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec2405600005.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2405600005 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2329026362/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2329026362.dir/build.make CMakeFiles/cmTryCompileExec2329026362.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2329026362.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec2329026362.dir/CheckIncludeFile.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2329026362
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2329026362.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec2329026362.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2329026362 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMESPEC succeded with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1597429188/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1597429188.dir/build.make CMakeFiles/cmTryCompileExec1597429188.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1597429188.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_STRUCT_TIMESPEC   -o CMakeFiles/cmTryCompileExec1597429188.dir/src.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c
+/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c:7:4: warning: statement with no effect [-Wunused-value]
+    tmp->tv_sec;
+    ^
+Linking C executable cmTryCompileExec1597429188
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1597429188.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_STRUCT_TIMESPEC    CMakeFiles/cmTryCompileExec1597429188.dir/src.c.o  -o cmTryCompileExec1597429188 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+   struct timespec* tmp;
+   tmp->tv_sec;
+  return 0;
+}
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2648699519/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2648699519.dir/build.make CMakeFiles/cmTryCompileExec2648699519.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2648699519.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=calloc   -o CMakeFiles/cmTryCompileExec2648699519.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘calloc’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2648699519
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2648699519.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=calloc    CMakeFiles/cmTryCompileExec2648699519.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2648699519 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function exit exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec727892873/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec727892873.dir/build.make CMakeFiles/cmTryCompileExec727892873.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec727892873.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=exit   -o CMakeFiles/cmTryCompileExec727892873.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘exit’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec727892873
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec727892873.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=exit    CMakeFiles/cmTryCompileExec727892873.dir/CheckFunctionExists.c.o  -o cmTryCompileExec727892873 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fprintf exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4172643277/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4172643277.dir/build.make CMakeFiles/cmTryCompileExec4172643277.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4172643277.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=fprintf   -o CMakeFiles/cmTryCompileExec4172643277.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘fprintf’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec4172643277
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4172643277.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=fprintf    CMakeFiles/cmTryCompileExec4172643277.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4172643277 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec816513937/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec816513937.dir/build.make CMakeFiles/cmTryCompileExec816513937.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec816513937.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=free   -o CMakeFiles/cmTryCompileExec816513937.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘free’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec816513937
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec816513937.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=free    CMakeFiles/cmTryCompileExec816513937.dir/CheckFunctionExists.c.o  -o cmTryCompileExec816513937 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function longjmp exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec110364299/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec110364299.dir/build.make CMakeFiles/cmTryCompileExec110364299.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec110364299.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=longjmp   -o CMakeFiles/cmTryCompileExec110364299.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec110364299
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec110364299.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=longjmp    CMakeFiles/cmTryCompileExec110364299.dir/CheckFunctionExists.c.o  -o cmTryCompileExec110364299 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function siglongjmp exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2950500171/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2950500171.dir/build.make CMakeFiles/cmTryCompileExec2950500171.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2950500171.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=siglongjmp   -o CMakeFiles/cmTryCompileExec2950500171.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2950500171
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2950500171.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=siglongjmp    CMakeFiles/cmTryCompileExec2950500171.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2950500171 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4003890087/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4003890087.dir/build.make CMakeFiles/cmTryCompileExec4003890087.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4003890087.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=malloc   -o CMakeFiles/cmTryCompileExec4003890087.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘malloc’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec4003890087
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4003890087.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=malloc    CMakeFiles/cmTryCompileExec4003890087.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4003890087 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2971685272/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2971685272.dir/build.make CMakeFiles/cmTryCompileExec2971685272.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2971685272.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memcpy   -o CMakeFiles/cmTryCompileExec2971685272.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memcpy’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2971685272
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2971685272.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memcpy    CMakeFiles/cmTryCompileExec2971685272.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2971685272 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2813056926/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2813056926.dir/build.make CMakeFiles/cmTryCompileExec2813056926.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2813056926.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTryCompileExec2813056926.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2813056926
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2813056926.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memset    CMakeFiles/cmTryCompileExec2813056926.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2813056926 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function printf exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3827659897/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3827659897.dir/build.make CMakeFiles/cmTryCompileExec3827659897.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3827659897.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=printf   -o CMakeFiles/cmTryCompileExec3827659897.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘printf’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3827659897
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3827659897.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=printf    CMakeFiles/cmTryCompileExec3827659897.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3827659897 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec556856926/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec556856926.dir/build.make CMakeFiles/cmTryCompileExec556856926.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec556856926.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=setjmp   -o CMakeFiles/cmTryCompileExec556856926.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec556856926
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec556856926.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=setjmp    CMakeFiles/cmTryCompileExec556856926.dir/CheckFunctionExists.c.o  -o cmTryCompileExec556856926 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function signal exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3204667599/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3204667599.dir/build.make CMakeFiles/cmTryCompileExec3204667599.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3204667599.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=signal   -o CMakeFiles/cmTryCompileExec3204667599.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3204667599
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3204667599.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=signal    CMakeFiles/cmTryCompileExec3204667599.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3204667599 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strsignal exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2557984389/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2557984389.dir/build.make CMakeFiles/cmTryCompileExec2557984389.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2557984389.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strsignal   -o CMakeFiles/cmTryCompileExec2557984389.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2557984389
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2557984389.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strsignal    CMakeFiles/cmTryCompileExec2557984389.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2557984389 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4265521700/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4265521700.dir/build.make CMakeFiles/cmTryCompileExec4265521700.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4265521700.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strcmp   -o CMakeFiles/cmTryCompileExec4265521700.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcmp’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec4265521700
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4265521700.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strcmp    CMakeFiles/cmTryCompileExec4265521700.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4265521700 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2868479320/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2868479320.dir/build.make CMakeFiles/cmTryCompileExec2868479320.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2868479320.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec2868479320.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2868479320
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2868479320.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec2868479320.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2868479320 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sprintf exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2094669718/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2094669718.dir/build.make CMakeFiles/cmTryCompileExec2094669718.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2094669718.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=sprintf   -o CMakeFiles/cmTryCompileExec2094669718.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sprintf’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2094669718
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2094669718.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=sprintf    CMakeFiles/cmTryCompileExec2094669718.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2094669718 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1598597346/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1598597346.dir/build.make CMakeFiles/cmTryCompileExec1598597346.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1598597346.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTryCompileExec1598597346.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘vsnprintf’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1598597346
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1598597346.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=vsnprintf    CMakeFiles/cmTryCompileExec1598597346.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1598597346 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_GCC_THREAD_LOCAL_STORAGE succeded with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1892083189/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1892083189.dir/build.make CMakeFiles/cmTryCompileExec1892083189.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1892083189.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_GCC_THREAD_LOCAL_STORAGE   -o CMakeFiles/cmTryCompileExec1892083189.dir/src.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1892083189
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1892083189.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_GCC_THREAD_LOCAL_STORAGE    CMakeFiles/cmTryCompileExec1892083189.dir/src.c.o  -o cmTryCompileExec1892083189 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+__thread int tls;
+
+int main(void) {
+    return 0;
+}
+Performing C SOURCE FILE Test HAVE_CLOCK_GETTIME_REALTIME succeded with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec970799905/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec970799905.dir/build.make CMakeFiles/cmTryCompileExec970799905.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec970799905.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_CLOCK_GETTIME_REALTIME   -o CMakeFiles/cmTryCompileExec970799905.dir/src.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec970799905
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec970799905.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_CLOCK_GETTIME_REALTIME    CMakeFiles/cmTryCompileExec970799905.dir/src.c.o  -o cmTryCompileExec970799905 -rdynamic -lrt 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <time.h>
+
+int main(void) {
+    struct timespec ts;
+
+    clock_gettime(CLOCK_REALTIME, &ts);
+
+    return 0;
+}
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3647148720/fast"
+make[1]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3647148720.dir/build.make CMakeFiles/cmTryCompileExec3647148720.dir/build
+make[2]: Entering directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3647148720.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTryCompileExec3647148720.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec3647148720
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3647148720.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTryCompileExec3647148720.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec3647148720 -rdynamic 
+make[2]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/vishal/Documents/Study_Master/Embedded_Software_Essential/repos/ecen5013/tutorials/unit_tests/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
