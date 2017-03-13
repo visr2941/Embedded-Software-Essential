@@ -6,7 +6,7 @@
 
 status_e buffer_add(CircBuf * buf, int8_t data)
 {
-	if(buffer_full(buf)==FULL||buf==NULL||buf->head==NULL||buf->tail==NULL)		//if buffer is full
+	if(buffer_full(buf)==FULL)		//if buffer is full
 		return FAIL;			// return FAIL status
 	else
 	{
@@ -14,7 +14,7 @@ status_e buffer_add(CircBuf * buf, int8_t data)
 			++buf->head;	//increase the head
 		else if((buf->head == (buf->buffer)+(buf->length)-1) && buf->count!=0)
 			buf->head = buf->buffer;	//if head is at the top of buffer, set head equal start of buffer
-		
+
 		*(buf->head) = data;
 		(buf->count)++;		//increase the count
 	}
@@ -24,14 +24,14 @@ status_e buffer_add(CircBuf * buf, int8_t data)
 
 status_e buffer_remove(CircBuf * buf)
 {
-	if(buffer_empty(buf)==EMPTY||buf==NULL||buf->head==NULL||buf->tail==NULL)	//if buffer is empty
+	if(buffer_empty(buf)==EMPTY)	//if buffer is empty
 		return FAIL;		//return fail
 	else
 	{
 		*(buf->tail) = 0x0;	//nullify the value
-		if((buf->tail != (buf->buffer)+(buf->length)-1) && buf->count!=0)	//if buffer tail is not at the top
+		if((buf->tail != (buf->buffer)+(buf->length)-1) && (buf->count!=1))	//if buffer tail is not at the top
 			buf->tail++;		//increase the tail
-		else if ((buf->tail == (buf->buffer)+(buf->length)-1) && buf->count!=0)	//if buffer tail is at top and count!=0
+		else if ((buf->tail == (buf->buffer)+(buf->length)-1) && (buf->count!=1))	//if buffer tail is at top and count!=0
 			buf->tail = buf->buffer;	//and make tail point to start of buffer
 		(buf->count)--;	//decrease the count
 	}
@@ -41,8 +41,6 @@ status_e buffer_remove(CircBuf * buf)
 
 status_e buffer_full(CircBuf * buf)
 {
-	if(buf==NULL||buf->head==NULL||buf->tail==NULL)
-		return FAIL;
 	if(buf->count==buf->length)	//if buffer count is equal to length
 		return FULL;		//return full
 	else
@@ -52,8 +50,6 @@ status_e buffer_full(CircBuf * buf)
 
 status_e buffer_empty(CircBuf * buf)
 {
-	if(buf==NULL||buf->head==NULL||buf->tail==NULL)
-		return FAIL;
 	if(buf->count==0)		//if buf-> count equal to zero
 		return EMPTY;		//return empty
 	else
@@ -79,6 +75,7 @@ int8_t buffer_peak(CircBuf * buf, uint16_t n)
 }
 
 
+
 status_e buffer_init(CircBuf * buf, uint16_t noBytes)
 {
 	if(buf==NULL||(buf->buffer = (int8_t *) malloc(noBytes*sizeof(int16_t)))==NULL)	//allocate memory of given size
@@ -101,4 +98,5 @@ status_e buffer_destroy(CircBuf * buf)
 	buf->tail = NULL;	//setting tail pointer to null
 	return SUCCESS;
 }
+
 

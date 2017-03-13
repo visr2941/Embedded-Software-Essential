@@ -15,21 +15,24 @@ void log_data(uint8_t * dataptr, uint16_t length)
 	}
 }
 
+
 void log_string(uint8_t * str)
 {
 	uint8_t n = 1;
 	while(*str!='\0')
 		buffer_add(tx_buf, *str++);
-	
+
 	buffer_add(tx_buf, '\0');
-	while(1)
+	while(buffer_empty(tx_buf)!=EMPTY)
 	{
-		if(buffer_peak(tx_buf, n)=='\0')
+		if(buffer_peak(tx_buf, 1)=='\0')
 			break;
-		uart_send_byte(buffer_peak(tx_buf, n));
-		n++;
+		uart_send_byte(buffer_peak(tx_buf, 1));
+		buffer_remove(tx_buf);
 	}
+	buffer_remove(tx_buf);
 }
+
 
 void log_integer(int8_t data)
 {

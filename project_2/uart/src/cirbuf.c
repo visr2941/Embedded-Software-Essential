@@ -14,7 +14,7 @@ status_e buffer_add(CircBuf * buf, int8_t data)
 			++buf->head;	//increase the head
 		else if((buf->head == (buf->buffer)+(buf->length)-1) && buf->count!=0)
 			buf->head = buf->buffer;	//if head is at the top of buffer, set head equal start of buffer
-		
+
 		*(buf->head) = data;
 		(buf->count)++;		//increase the count
 	}
@@ -29,9 +29,9 @@ status_e buffer_remove(CircBuf * buf)
 	else
 	{
 		*(buf->tail) = 0x0;	//nullify the value
-		if((buf->tail != (buf->buffer)+(buf->length)-1) && buf->count!=0)	//if buffer tail is not at the top
+		if((buf->tail != (buf->buffer)+(buf->length)-1) && (buf->count!=1))	//if buffer tail is not at the top
 			buf->tail++;		//increase the tail
-		else if ((buf->tail == (buf->buffer)+(buf->length)-1) && buf->count!=0)	//if buffer tail is at top and count!=0
+		else if ((buf->tail == (buf->buffer)+(buf->length)-1) && (buf->count!=1))	//if buffer tail is at top and count!=0
 			buf->tail = buf->buffer;	//and make tail point to start of buffer
 		(buf->count)--;	//decrease the count
 	}
@@ -59,6 +59,8 @@ status_e buffer_empty(CircBuf * buf)
 
 int8_t buffer_peak(CircBuf * buf, uint16_t n)
 {
+	if(buf==NULL||buf->head==NULL||buf->tail==NULL)
+		return FAIL;
 	if(buffer_empty(buf)==EMPTY)	//if bufffer is empty
 		return 0x0;		//return empty flag
 	else
@@ -66,16 +68,17 @@ int8_t buffer_peak(CircBuf * buf, uint16_t n)
 		if(buf->tail+(n-1) <= buf->buffer+buf->length && n<=buf->count)
 			return *(buf->tail+(n-1));	//else return the nth element counted from head
 		else if (n<=buf->count)
-			return *(buf->buffer + ((int16_t) (buf->tail+n-1) % buf->length));
+			return *(buf->buffer + (int8_t)((size_t)(buf->tail+n-1) % buf->length));
 		else
 			return 0x0;
 	}
 }
 
 
+
 status_e buffer_init(CircBuf * buf, uint16_t noBytes)
 {
-	if((buf->buffer = (uint8_t *) malloc(noBytes*sizeof(uint16_t)))==NULL)	//allocate memory of given size
+	if(buf==NULL||(buf->buffer = (int8_t *) malloc(noBytes*sizeof(int16_t)))==NULL)	//allocate memory of given size
 		return FAIL;	//and if memory is not allocated, return failure
 	buf->head = buf->buffer;	//set buf->head to point the buffer start
 	buf->tail = buf->buffer;	//set buf->tail to point the buffer start
@@ -87,9 +90,13 @@ status_e buffer_init(CircBuf * buf, uint16_t noBytes)
 
 status_e buffer_destroy(CircBuf * buf)
 {
+	if(buf==NULL||buf->head==NULL||buf->tail==NULL)
+		return FAIL;
 	free(buf->buffer);	//free the memory pointed through buf->pointer
 	buf->buffer = NULL;	//setting it to null
 	buf->head = NULL;	//setting head pointer to null
 	buf->tail = NULL;	//setting tail pointer to null
+	return SUCCESS;
 }
+
 
