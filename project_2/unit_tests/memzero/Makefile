@@ -52,12 +52,12 @@ EXE = main.out
 #
 # tests
 #
-TEST_MEMMOVE_SRCS = \
-	unit_test_memmove.c
+TEST_MEMZERO_SRCS = \
+	unit_test_memzero.c
 
-TEST_MEMMOVE_OBJS = $(TEST_MEMMOVE_SRCS:%.c=%.o)
+TEST_MEMZERO_OBJS = $(TEST_MEMZERO_SRCS:%.c=%.o)
 
-TEST_MEMMOVE_EXE = unit_test_memove.out
+TEST_MEMZERO_EXE = unit_test_memzero.out
 
 
 #
@@ -74,16 +74,16 @@ all : $(LIB) $(EXE)
 $(EXE) : $(EXE_OBJS) $(LIB)
 	$(CC) $(CFLAGS) -o $@ $^ -lm
 
-test : $(TEST_MEMMOVE_EXE)
-	./$(TEST_MEMMOVE_EXE)
+test : $(TEST_MEMZERO_EXE)
+	./$(TEST_MEMZERO_EXE)
 
-$(TEST_MEMMOVE_EXE) : $(TEST_MEMMOVE_SRCS) $(LIB)
+$(TEST_MEMZERO_EXE) : $(TEST_MEMZERO_SRCS) $(LIB)
 	$(CC) $(CFLAGS) -o $@ $^ $(CMOCKA_LIBRARY) -lm
 
 
 .PHONY : clean
 clean : FORCE
-	-rm -rf *~ *.o $(LIB) $(EXE) $(TEST_MEMMOVE_EXE) *.dSYM/
+	-rm -rf *~ *.o $(LIB) $(EXE) $(TEST_MEMZERO_EXE) *.dSYM/
 
 .PHONY : clobber
 clobber : $(SUBDIRS) clean

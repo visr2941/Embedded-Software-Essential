@@ -33,7 +33,7 @@ CFLAGS += -I $(CMOCKA_INCLUDE_DIR)
 # library
 #
 LIB_SRCS = \
-	memory.c 
+	cirbuf.c 
 
 LIB_OBJS = $(LIB_SRCS:%.c=%.o)
 
@@ -52,12 +52,12 @@ EXE = main.out
 #
 # tests
 #
-TEST_MEMMOVE_SRCS = \
-	unit_test_memmove.c
+TEST_CIRBUF_SRCS = \
+	unit_test_cirbuf.c
 
-TEST_MEMMOVE_OBJS = $(TEST_MEMMOVE_SRCS:%.c=%.o)
+TEST_CIRBUF_OBJS = $(TEST_CIRBUF_SRCS:%.c=%.o)
 
-TEST_MEMMOVE_EXE = unit_test_memove.out
+TEST_CIRBUF_EXE = unit_test_cirbuf.out
 
 
 #
@@ -74,16 +74,16 @@ all : $(LIB) $(EXE)
 $(EXE) : $(EXE_OBJS) $(LIB)
 	$(CC) $(CFLAGS) -o $@ $^ -lm
 
-test : $(TEST_MEMMOVE_EXE)
-	./$(TEST_MEMMOVE_EXE)
+test : $(TEST_CIRBUF_EXE)
+	./$(TEST_CIRBUF_EXE)
 
-$(TEST_MEMMOVE_EXE) : $(TEST_MEMMOVE_SRCS) $(LIB)
+$(TEST_CIRBUF_EXE) : $(TEST_CIRBUF_SRCS) $(LIB)
 	$(CC) $(CFLAGS) -o $@ $^ $(CMOCKA_LIBRARY) -lm
 
 
 .PHONY : clean
 clean : FORCE
-	-rm -rf *~ *.o $(LIB) $(EXE) $(TEST_MEMMOVE_EXE) *.dSYM/
+	-rm -rf *~ *.o $(LIB) $(EXE) $(TEST_CIRBUF_EXE) *.dSYM/
 
 .PHONY : clobber
 clobber : $(SUBDIRS) clean

@@ -57,7 +57,7 @@ TEST_MEMMOVE_SRCS = \
 
 TEST_MEMMOVE_OBJS = $(TEST_MEMMOVE_SRCS:%.c=%.o)
 
-TEST_MEMMOVE_EXE = unit_test_memove.out
+TEST_MEMMOVE_EXE = unit_test_memmove.out
 
 
 #

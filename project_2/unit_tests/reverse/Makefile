@@ -52,12 +52,12 @@ EXE = main.out
 #
 # tests
 #
-TEST_MEMMOVE_SRCS = \
-	unit_test_memmove.c
+TEST_REVERSE_SRCS = \
+	unit_test_reverse.c
 
-TEST_MEMMOVE_OBJS = $(TEST_MEMMOVE_SRCS:%.c=%.o)
+TEST_REVERSE_OBJS = $(TEST_REVERSE_SRCS:%.c=%.o)
 
-TEST_MEMMOVE_EXE = unit_test_memove.out
+TEST_REVERSE_EXE = unit_test_reverse.out
 
 
 #
@@ -74,16 +74,16 @@ all : $(LIB) $(EXE)
 $(EXE) : $(EXE_OBJS) $(LIB)
 	$(CC) $(CFLAGS) -o $@ $^ -lm
 
-test : $(TEST_MEMMOVE_EXE)
-	./$(TEST_MEMMOVE_EXE)
+test : $(TEST_REVERSE_EXE)
+	./$(TEST_REVERSE_EXE)
 
-$(TEST_MEMMOVE_EXE) : $(TEST_MEMMOVE_SRCS) $(LIB)
+$(TEST_REVERSE_EXE) : $(TEST_REVERSE_SRCS) $(LIB)
 	$(CC) $(CFLAGS) -o $@ $^ $(CMOCKA_LIBRARY) -lm
 
 
 .PHONY : clean
 clean : FORCE
-	-rm -rf *~ *.o $(LIB) $(EXE) $(TEST_MEMMOVE_EXE) *.dSYM/
+	-rm -rf *~ *.o $(LIB) $(EXE) $(TEST_REVERSE_EXE) *.dSYM/
 
 .PHONY : clobber
 clobber : $(SUBDIRS) clean

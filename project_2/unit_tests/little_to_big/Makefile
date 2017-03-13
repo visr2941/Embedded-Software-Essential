@@ -33,7 +33,7 @@ CFLAGS += -I $(CMOCKA_INCLUDE_DIR)
 # library
 #
 LIB_SRCS = \
-	memory.c 
+	data.c 
 
 LIB_OBJS = $(LIB_SRCS:%.c=%.o)
 
@@ -52,12 +52,12 @@ EXE = main.out
 #
 # tests
 #
-TEST_MEMMOVE_SRCS = \
-	unit_test_memmove.c
+TEST_LITTLE2BIG_SRCS = \
+	unit_test_little2big.c
 
-TEST_MEMMOVE_OBJS = $(TEST_MEMMOVE_SRCS:%.c=%.o)
+TEST_LITTLE2BIG_OBJS = $(TEST_LITTLE2BIG_SRCS:%.c=%.o)
 
-TEST_MEMMOVE_EXE = unit_test_memove.out
+TEST_LITTLE2BIG_EXE = unit_test_little2big.out
 
 
 #
@@ -74,16 +74,16 @@ all : $(LIB) $(EXE)
 $(EXE) : $(EXE_OBJS) $(LIB)
 	$(CC) $(CFLAGS) -o $@ $^ -lm
 
-test : $(TEST_MEMMOVE_EXE)
-	./$(TEST_MEMMOVE_EXE)
+test : $(TEST_LITTLE2BIG_EXE)
+	./$(TEST_LITTLE2BIG_EXE)
 
-$(TEST_MEMMOVE_EXE) : $(TEST_MEMMOVE_SRCS) $(LIB)
+$(TEST_LITTLE2BIG_EXE) : $(TEST_LITTLE2BIG_SRCS) $(LIB)
 	$(CC) $(CFLAGS) -o $@ $^ $(CMOCKA_LIBRARY) -lm
 
 
 .PHONY : clean
 clean : FORCE
-	-rm -rf *~ *.o $(LIB) $(EXE) $(TEST_MEMMOVE_EXE) *.dSYM/
+	-rm -rf *~ *.o $(LIB) $(EXE) $(TEST_LITTLE2BIG_EXE) *.dSYM/
 
 .PHONY : clobber
 clobber : $(SUBDIRS) clean
