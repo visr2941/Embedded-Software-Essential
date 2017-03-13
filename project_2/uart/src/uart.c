@@ -5,6 +5,7 @@
 #include "MKL25Z4.h"
 #include "uart.h"
 
+#define UART_MODE_INTR
 
 void uart_configure(int32_t baudrate)
 {
@@ -34,7 +35,7 @@ void uart_configure(int32_t baudrate)
         UART0_C4 |= 0x00;			// setting the oversampling ratio
         UART0_C5 |= 0x00;
 	
-#if UART_MODE == INTR
+#ifdef UART_MODE_INTR
 	UART0_C2 |= UART_C2_RIE_MASK;
 	NVIC->ISER[0] = (1<<12);	// enable IRQ for UART0
 #endif
@@ -59,7 +60,7 @@ uint8_t uart_receive_byte()
 	return(UART0_D);				// return the data received
 }
 
-#if UART_MODE == INTR
+#ifdef UART_MODE_INTR
 void UART0_IRQHandler (void)
 {
 	uint8_t ch = 0;
