@@ -1,5 +1,7 @@
 #include "logger.h"
 
+
+
 void log_data(uint8_t * dataptr, uint16_t length)
 {
 	uint8_t n = 0;
@@ -41,11 +43,11 @@ void log_integer(int8_t data)
 
 void log_flush()
 {
-	while(buffer_empty()!=EMPTY)
-	{	
+	uint8_t n = 1;
+	while(buffer_empty(tx_buf)!=EMPTY)
+	{
 		log_integer(buffer_peak(tx_buf, n));
 		n++;
 	}
 }
-
 
