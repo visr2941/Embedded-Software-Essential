@@ -17,7 +17,7 @@ void nrf_write_register(uint8_t reg, uint8_t value)
 {
 	GPIOD_PCOR = 1<<0;
 	SPI_write_byte(NRF24L01P_SPI_CMD_WR_REG|reg);
-	delay(100);
+	uint8_t stat = SPI_read_byte();
 	SPI_write_byte(value);
 	GPIOD_PSOR = 1<<0;
 
@@ -26,11 +26,12 @@ void nrf_write_register(uint8_t reg, uint8_t value)
 uint8_t nrf_read_register(uint8_t reg) //function to configure address for reading into register
 {
 	GPIOD_PCOR = 1<<0;
-	SPI_write_byte(NRF24L01P_SPI_CMD_WR_REG|reg);
-	delay(100);
-	SPI_write_byte(0xFF);
-	delay(50);
+	SPI_write_byte(NRF24L01P_SPI_CMD_RD_REG|reg);
+	//delay(100);
 	uint8_t data=SPI_read_byte();
+	SPI_write_byte(NRF24L01P_SPI_CMD_NOP);
+	//delay(50);
+	data=SPI_read_byte();
 	GPIOD_PSOR = 1<<0;
 	return data;
 }
